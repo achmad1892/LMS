@@ -1,0 +1,141 @@
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 85%;
+    margin-top: 10px;
+    margin: auto 45px;
+  }
+  .dropdown-content li> a, .dropdown-content li> span {
+    font-size: 13px;
+  }
+  .img_dashboard {
+    width: 220px;
+    height: 60px;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  .container {
+    width: 80%;
+    margin-top: 10px;
+    margin: auto 45px;
+  }
+  .nav-wrapper {
+    width: 83%;
+  }
+  .dropdown-content li> a, .dropdown-content li> span {
+    font-size: 12px;
+  }
+  .img_dashboard {
+    width: 170px;
+    height: 50px;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 78%;
+    margin-top: 10px;
+    margin-left: 275px;
+  }
+  .dropdown-content li> a, .dropdown-content li> span {
+    font-size: 13px;
+  }
+  .img_dashboard {
+    width: 220px;
+    height: 60px;
+  }
+}
+
+td, th {
+  padding: 8px 4px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+  border-radius: 1px;
+}
+
+.ukuran {
+  font-size: 14pt;
+}
+
+.besar {
+  font-size: 50pt;
+  text-align: center;
+}
+
+.jarak {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.side-nav {
+  margin-top: 64px;
+  height: 90%;
+  width: 260px;
+}
+
+.side-nav li {
+  float: none;
+  padding: 2px 5px;
+  line-height: 20px;
+}
+
+.side-nav li:hover, .side-nav li.active {
+  background-color: #ddd;
+}
+
+.side-nav a {
+  color: #444;
+  display: block;
+  font-size: 1rem;
+  height: 40px;
+  line-height: 45px;
+  padding: 0 20px;
+}
+
+.dropdown-content {
+  margin-top: 50px;
+  min-width: 250px;
+}
+
+.dropdown-content li> a, .dropdown-content li> span {
+  display: block;
+  line-height: 45px;
+  padding: 0.8rem 0.8rem;
+}
+
+.nav-wrapper {
+  margin-left: 80px;
+}
+
+.image {
+  margin-top: 25px;
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+  border: 2px solid #dedede;
+  margin-bottom: 25px;
+}
+
+.jarak {
+  padding: 4px 0px;
+}
+
+.pad {
+  padding-left: 30px;
+}
+
+.link {
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  outline: 0;
+  padding: 0 10px;
+  font-size: 13pt;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}

@@ -1,0 +1,90 @@
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 85%;
+    margin-top: 10px;
+    margin: auto 45px;
+  }
+  .logo {
+    width: 230px;
+    height: 65px;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  .container {
+    width: 80%;
+    margin-top: 10px;
+    margin: auto;
+  }
+  .nav-wrapper {
+    width: 83%;
+  }
+  .logo {
+    width: 190px;
+    height: 50px;
+  }
+  .profil {
+    height: 50px;
+    width: 40px;
+  }
+  .contents .card-title {
+    font-size: 20px;
+    padding-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 75%;
+    margin-top: 10px;
+  }
+  .profil {
+    height: 100px;
+    width: 80px;
+    margin-left: 40px;
+  }
+}
+
+.pad {
+  padding-bottom: 6px;
+}
+
+.ukuran {
+  font-size: 14pt;
+}
+
+.besar {
+  font-size: 50pt;
+  text-align: center;
+}
+
+.jarak {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.dropdown-content {
+  margin-top: 65px;
+  margin-left: 20px;
+  min-width: 200px;
+}
+
+.dropdown-content li> a, .dropdown-content li> span {
+  display: block;
+  line-height: 20px;
+  padding: 1rem 1rem;
+}
+
+.nav-wrapper {
+  margin-left: 80px;
+}
+
+.image {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  border: 2px solid #ffffff;
+  vertical-align: middle;
+  margin-right: 20px;
+}
