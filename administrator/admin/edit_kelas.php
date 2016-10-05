@@ -37,15 +37,15 @@
                <i class="fa fa-user prefix"></i>
                <label>Wali Kelas</label>
                <select class="browser-default" name="guru">
-                  <option value="" selected="selected">Pilih Wali Kelas</option>
                   <?php
 
                   $pilih = mysqli_query($mysqli, "SELECT * FROM t_guru");
 
                   while ($key = mysqli_fetch_array($pilih)) {
-                     echo '<option value="'.$key['id_guru'].'" >'.$key['fullname'].'</option>';
+                     ?>
+                     <option value="<?php echo $key['id_guru']; ?>" <?php if ($key['id_guru'] == $kelas['id_guru']) { echo 'selected'; } ?> ><?php echo $key['fullname']; ?></option>
+                     <?php
                   }
-
                   ?>
                </select>
             </div>
